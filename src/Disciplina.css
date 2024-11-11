@@ -1,0 +1,10 @@
+.disciplina{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    border: 5px dotted rebeccapurple;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 2rem;
+}
