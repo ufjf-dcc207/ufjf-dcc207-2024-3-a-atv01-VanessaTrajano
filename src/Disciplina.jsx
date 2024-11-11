@@ -1,14 +1,11 @@
 import "./Disciplina.css";
 
-function Disciplina() {
-
-    const codigo = "DCC207"
-    const nome = "Desenvolvimento Front-End"
+function Disciplina(props) {
 
   return (
     <div className="disciplina">
-      <h2>{codigo}</h2>
-      <h3>{nome}</h3>
+      <h2>{props.codigo}</h2>
+      <h3>{props.nome}</h3>
     </div>
   );
 }
